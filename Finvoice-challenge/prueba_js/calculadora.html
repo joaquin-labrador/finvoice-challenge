@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculadora</title>
+    <script src="calcular.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container" style="text-align: center;">
+        <div id="mostrarImpares">
+            <h1>Mostrar Impares</h1>
+            <button onclick="mostrarImpares100To150()">Mostrar</button>
+            <button onclick="limpiarImpares()">Limpiar</button>
+            <div id="impares"></div>
+
+        </div>
+
+        <div id="calculadoraDiv">
+
+            <h1>Calculadora</h1>
+            <input type="text" id="valor1">
+            <input type="text" id="valor2">
+            <button onclick="calcular()">Calcular</button>
+            <div id="resultados"></div>
+
+        </div>
+
+        <div id="listarVehiculos" class="styleLista">
+            <h1>Listar Vehiculos</h1>
+            <button onclick="listarVehiculos()">Listar</button>
+            <button onclick="limpiarVehiculos()">Limpiar</button>
+            <div id="vehiculos" class="centrarTabla"></div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
